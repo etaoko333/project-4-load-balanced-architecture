@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tovadel Academy - Learning Website</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 0 auto 1rem;
+            display: block;
+        }
+        .nav {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 1rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .nav a {
+            color: #667eea;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        .nav a:hover {
+            background: #667eea;
+            color: white;
+        }
+        .content {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="profile.png" alt="Tovadel Academy Logo" class="logo">
+            <h1>Welcome to Tovadel Academy</h1>
+            <p>Your Premier Technology Learning Platform</p>
+        </div>
+        
+        <div class="nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#courses">Courses</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+            <a href="#login">Login</a>
+        </div>
+        
+        <div class="content">
+            <h2>Transform Your Tech Career</h2>
+            <p>Join thousands of students who have transformed their careers through our comprehensive technology courses and hands-on learning approach.</p>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>🚀 Cloud Computing</h3>
+                    <p>Master AWS, Azure, and Google Cloud platforms with real-world projects.</p>
+                </div>
+                <div class="card">
+                    <h3>💻 Web Development</h3>
+                    <p>Build modern web applications using the latest frameworks and technologies.</p>
+                </div>
+                <div class="card">
+                    <h3>🔒 Cybersecurity</h3>
+                    <p>Learn to protect systems and data with industry-standard security practices.</p>
+                </div>
+                <div class="card">
+                    <h3>📊 Data Science</h3>
+                    <p>Analyze data and build machine learning models to drive business decisions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
