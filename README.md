@@ -447,7 +447,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ If this project helped you, please give it a star on GitHub!**
 
-**📝 Found this useful? Check out my [Medium blog]([https://medium.com/@your-username](https://medium.com/@osenat.alonge/building-production-ready-infrastructure-a-complete-guide-to-aws-multi-az-load-balanced-c5e62de256ef)) for more AWS and DevOps tutorials!**
+**📝 Found this useful? Check out my blog**
+**Medium blog: https://medium.com/@osenat.alonge/building-production-ready-infrastructure-a-complete-guide-to-aws-multi-az-load-balanced-c5e62de256ef for more AWS and DevOps tutorials!**
 
 ---
 ** vist: website: www.tovadelacademy.co.uk**
